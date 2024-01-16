@@ -27,8 +27,9 @@ export const RESUME_DATA = {
   about: "XR Engineer and Developer Building the Spatial Computing Future",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/C4E03AQGBumrZlWJu3A/profile-displayphoto-shrink_800_800/0/1554057271629?e=1710979200&v=beta&t=haG0fSDLTGPbaNOdUhYou8jrDNxX0EyHbjjEtXrsp8A",
+  personalWebsiteUrl: "johnluksas.com",
   contact: {
     email: "johnluksas@gmail.com",
     tel: "+14139772872",
@@ -40,22 +41,29 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/john-luksas/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/futureofxr",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Virginia Polytechnic Institute and State University",
+      degree: "Bachelor's Degree in Industrial and Systems Engineering",
+      start: "2016",
+      end: "2020",
+    },
+    {
+      school: "Virginia Polytechnic Institute and State University",
+      degree:
+        "Masters' Degree in Industrial and System Engineering - Human Factors and Ergonomics Concentration",
+      start: "2021",
+      end: "2024",
     },
   ],
   work: [
@@ -104,13 +112,14 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Unity",
+    "C#",
+    "Microsoft MRTK",
+    "HoloLens 2",
+    "Meta Quest",
+    "Microsoft World Locking Tools",
+    "Vuforia",
+    "CAD",
   ],
   projects: [
     {
