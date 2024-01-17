@@ -123,7 +123,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "D",
       techStack: [
         "Side Project",
         "TypeScript",
