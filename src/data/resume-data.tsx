@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Blacksburg",
   about: "XR Engineer and Developer Building the Spatial Computing Future",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As an AR/VR engineer and UX designer with a specialized focus in Unity and other spatial computing platforms, I have dedicated over four years to refining immersive experiences on platforms like the HoloLens 2 and Quest. Collaborating closely with cross-functional teams and research clients have led to the deployment of groundbreaking large-scale AR applications and proof of concepts for industries such as search and rescue and bridge inspection, which have the potential to carve out new pathways for AR/VR innovation. I am committed to driving the evolution of AR/VR technology, actively engaging with emergent technologies, including WebXR, Gaussian splatting and world-scale tracking, continuously looking for opportunities for enhancement and integration in the AR/VR space.",
   avatarUrl:
     "https://media.licdn.com/dms/image/C4E03AQGBumrZlWJu3A/profile-displayphoto-shrink_800_800/0/1554057271629?e=1710979200&v=beta&t=haG0fSDLTGPbaNOdUhYou8jrDNxX0EyHbjjEtXrsp8A",
   personalWebsiteUrl: "johnluksas.com",
@@ -36,7 +36,7 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/johnluksas",
         icon: GitHubIcon,
       },
       {
@@ -68,15 +68,19 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "New Mexico Department of Transportation (NMDOT)",
+      link: "https://www.dot.nm.gov/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title:
+        "Graduate Research Assistant (Macro Tracking Developer and UI Designer)",
       logo: ParabolLogo,
-      start: "2021",
+      start: "2023",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "o	Implementing large world scale tracking system which can recognize individual bridges for save persistence \n" +
+        "o	Collaborating to integrate RGB-D based micro-tracking system to overlay AR elements precisely on defects \n" +
+        "o	Evaluating hardware and software upgrades for HoloLens 2 to suit summer and winter conditions in NM \n" +
+        "o	Designing and building minimally invasive AR UI system to help inspectors collect bridge defect data and overlay previous data accurately onto the bridge",
     },
     {
       company: "Clevertech",
@@ -123,25 +127,18 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "D",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
+      title: "NMDOT",
+      techStack: ["Unity", "C#", "World Locking Tools", ""],
       description: "A platform to build and grow your online business",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "NMDOT.com",
+        href: "https://www.dot.nm.gov/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "VDOT",
+      techStack: ["Unity", "C#", "World Locking Tools", ""],
       description:
         "Browser extension that records everything happening in a web application",
       logo: MonitoLogo,
@@ -151,8 +148,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "NIST",
+      techStack: ["Unity", "C#", "World Locking Tools", ""],
       description:
         "My personal website and blog. Built with Next.js and Notion API",
       logo: JarockiMeLogo,
@@ -162,8 +159,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Thesis",
+      techStack: ["Unity", "C#", "World Locking Tools", ""],
       description:
         "Minimalist calendars, habit trackers and planners generator",
       logo: Minimal,
@@ -173,8 +170,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Thesis AR Data App",
+      techStack: [
+        "Time Series Data",
+        "Unity",
+        "Unity Editor",
+        "Real-time Data Logging",
+      ],
       description:
         "Generates beautiful wallpapers using random shapes and gradients",
       logo: BarepapersLogo,
@@ -184,8 +186,14 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
+      title: "NIST AR Data App",
+      techStack: [
+        "Time Series Data",
+        "Unity",
+        "Unity Editor",
+        "Gaussian Splats",
+        "Real-time Data Logging",
+      ],
       description: "Tracks current year progress and displays a countdown",
       logo: YearProgressLogo,
       link: {
@@ -194,7 +202,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Parabol",
+      title: "Bridge Assembly Task",
       techStack: [
         "Full Stack Developer",
         "TypeScript",
@@ -211,7 +219,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Evercast",
+      title: "AI Canvas AR App",
       techStack: [
         "Lead Frontend Developer",
 
@@ -229,7 +237,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Mobile Vikings",
+      title: "Google Maps GeoLocation App",
       techStack: ["Lead Android Developer", "Android", "Kotlin"],
       description:
         "Android application for leading virtual mobile operator in Poland",
@@ -238,49 +246,6 @@ export const RESUME_DATA = {
         label: "mobilevikings.pl",
         href: "https://mobilevikings.pl/",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
