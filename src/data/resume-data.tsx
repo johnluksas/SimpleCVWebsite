@@ -138,7 +138,7 @@ export const RESUME_DATA = {
     },
     {
       title: "VDOT",
-      techStack: ["Unity", "C#", "World Locking Tools", ""],
+      techStack: ["Unity", "C#", "World Locking Tools"],
       description:
         "Browser extension that records everything happening in a web application",
       logo: MonitoLogo,
@@ -149,7 +149,7 @@ export const RESUME_DATA = {
     },
     {
       title: "NIST",
-      techStack: ["Unity", "C#", "World Locking Tools", ""],
+      techStack: ["Unity", "C#", "World Locking Tools"],
       description:
         "My personal website and blog. Built with Next.js and Notion API",
       logo: JarockiMeLogo,

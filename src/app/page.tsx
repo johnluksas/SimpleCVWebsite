@@ -37,7 +37,7 @@ export default function Page() {
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
                 <Button
-                  className="size-8"
+                  className="size-12"
                   variant="outline"
                   size="icon"
                   asChild
@@ -49,7 +49,7 @@ export default function Page() {
               ) : null}
               {RESUME_DATA.contact.tel ? (
                 <Button
-                  className="size-8"
+                  className="size-12"
                   variant="outline"
                   size="icon"
                   asChild
@@ -62,7 +62,7 @@ export default function Page() {
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
-                  className="size-8"
+                  className="size-12"
                   variant="outline"
                   size="icon"
                   asChild
