@@ -77,10 +77,10 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2024",
       description:
-        "o	Implementing large world scale tracking system which can recognize individual bridges for save persistence \n" +
-        "o	Collaborating to integrate RGB-D based micro-tracking system to overlay AR elements precisely on defects \n" +
-        "o	Evaluating hardware and software upgrades for HoloLens 2 to suit summer and winter conditions in NM \n" +
-        "o	Designing and building minimally invasive AR UI system to help inspectors collect bridge defect data and overlay previous data accurately onto the bridge",
+        "Implementing large world scale tracking system which can recognize individual bridges for save persistence.\n\n\n" +
+        "Collaborating to integrate RGB-D based micro-tracking system to overlay AR elements precisely on defects." +
+        "Evaluating hardware and software upgrades for HoloLens 2 to suit summer and winter conditions in NM." +
+        "Designing and building minimally invasive AR UI system to help inspectors collect bridge defect data and overlay previous data accurately onto the bridge.",
     },
     {
       company: "Virginia Department of Transportation (VDOT)",
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2024",
       description:
-        "•	Acquire understanding of workflow and technology restrictions present for VDOT personnel and bridge inspectors to design an Augmented Reality (AR) bridge inspection system that would meet their data recording extents, function in their workplace conditions, and ultimately gain inspector buy-in•	Develop initial proof of concept AR HoloLens 2 application in Unity to introduce stakeholders to the functionalpossibilities of AR and provide a design milestone for which future work could be added•	Collaborate with experimenters to develop an app to facilitate a user study exploring interaction techniques",
+        "Acquire understanding of workflow and technology restrictions present for VDOT personnel and bridge inspectors to design an Augmented Reality (AR) bridge inspection system that would meet their data recording extents, function in their workplace conditions, and ultimately gain inspector buy-in. Develop initial proof of concept AR HoloLens 2 application in Unity to introduce stakeholders to the functionalpossibilities of AR and provide a design milestone for which future work could be added.	Collaborate with experimenters to develop an app to facilitate a user study exploring interaction techniques",
     },
     {
       company: "National Institute of Standards and Technology (NIST)",
@@ -103,10 +103,10 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:
-        "•	Implement and test world-scale outdoor tracking architecture for use with HoloLens 2 headsets which can recall which location a user is and load relevant virtual object saves for that location" +
-        "•	Develop and update an AR HoloLens 2 application in Unity designed to aid search and rescue personnel in the notation and localization of hazards and victims in a wide area disaster or search scenario" +
-        "•	Develop an author mode for experimenters to easily setup and  save training scenes in their real world" +
-        "•	Present research and perform live demos at NIST’s premier PSCR first responder conference",
+        "Implement and test world-scale outdoor tracking architecture for use with HoloLens 2 headsets which can recall which location a user is and load relevant virtual object saves for that location." +
+        "Develop and update an AR HoloLens 2 application in Unity designed to aid search and rescue personnel in the notation and localization of hazards and victims in a wide area disaster or search scenario." +
+        "Develop an author mode for experimenters to easily setup and  save training scenes in their real world." +
+        "Present research and perform live demos at NIST’s premier PSCR first responder conference.",
     },
     {
       company: "Master of Science Thesis Research",
@@ -117,9 +117,9 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:
-        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
-        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
-        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+        "Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications." +
+        "Implement the method in Unity with common game engine features for a low computational overhead." +
+        "Design and conduct a 24 person user study to test 3 different custom estimating configurations.",
     },
     {
       company: "Creative Systems and Consulting (ICF)",
@@ -130,9 +130,9 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
-        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
-        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+        "Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications." +
+        "Implement the method in Unity with common game engine features for a low computational overhead." +
+        "Design and conduct a 24 person user study to test 3 different custom estimating configurations.",
     },
     {
       company: "Collins Aerospace",
@@ -143,9 +143,9 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2019",
       description:
-        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
-        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
-        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+        "Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications." +
+        "Implement the method in Unity with common game engine features for a low computational overhead." +
+        "Design and conduct a 24 person user study to test 3 different custom estimating configurations.",
     },
     {
       company: "COGnitive Engineering for Novel Technologies (COGENT) Lab",
@@ -156,9 +156,9 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2020",
       description:
-        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
-        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
-        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+        "Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications." +
+        "Implement the method in Unity with common game engine features for a low computational overhead." +
+        "Design and conduct a 24 person user study to test 3 different custom estimating configurations.",
     },
     {
       company: "COGnitive Engineering for Novel Technologies (COGENT) Lab",
@@ -169,9 +169,9 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2019",
       description:
-        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
-        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
-        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+        "Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications." +
+        "Implement the method in Unity with common game engine features for a low computational overhead." +
+        "Design and conduct a 24 person user study to test 3 different custom estimating configurations.",
     },
     {
       company: "COGnitive Engineering for Novel Technologies (COGENT) Lab",
@@ -182,9 +182,9 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2019",
       description:
-        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
-        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
-        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+        "Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications." +
+        "Implement the method in Unity with common game engine features for a low computational overhead." +
+        "Design and conduct a 24 person user study to test 3 different custom estimating configurations.",
     },
   ],
   skills: [
