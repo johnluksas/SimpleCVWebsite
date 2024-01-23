@@ -196,12 +196,15 @@ export const RESUME_DATA = {
     "Microsoft World Locking Tools",
     "Vuforia",
     "CAD",
+    "Agile",
+    "Consulting",
   ],
   projects: [
     {
       title: "NMDOT Bridge AR App",
       techStack: ["Unity", "C#", "World Locking Tools", "HoloLens 2", "MRTK"],
-      description: "",
+      description:
+        "AR application aimed to help streamline bridge inspectors workflow",
       logo: ConsultlyLogo,
       link: {
         label: "FutureofXR",
@@ -212,7 +215,7 @@ export const RESUME_DATA = {
       title: "VDOT Bridge AR App",
       techStack: ["Unity", "C#", "World Locking Tools", "HoloLens 2", "MRTK"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "AR application aimed to help streamline bridge inspectors workflow",
       logo: MonitoLogo,
       link: {
         label: "FutureofXR",
@@ -222,7 +225,8 @@ export const RESUME_DATA = {
     {
       title: "NIST AR First Responder App",
       techStack: ["Unity", "C#", "World Locking Tools", "HoloLens 2", "MRTK"],
-      description: "",
+      description:
+        "Large scale AR scene setup and testbed software to help test potential AR search and rescue solutions",
       logo: JarockiMeLogo,
       link: {
         label: "FutureofXR",
@@ -232,7 +236,8 @@ export const RESUME_DATA = {
     {
       title: "Thesis AR App",
       techStack: ["Unity", "C#", "World Locking Tools", "HoloLens 2", "MRTK"],
-      description: "",
+      description:
+        "App aimed to test an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge",
       logo: Minimal,
       link: {
         label: "FutureofXR",
@@ -248,7 +253,8 @@ export const RESUME_DATA = {
         "Unity Editor",
         "Real-time Data Logging",
       ],
-      description: "",
+      description:
+        "After-the-fact data viewer used to replay all participants data over time",
       logo: BarepapersLogo,
       link: {
         label: "FutureofXR",
@@ -265,7 +271,8 @@ export const RESUME_DATA = {
         "Gaussian Splats",
         "Real-time Data Logging",
       ],
-      description: "",
+      description:
+        "After-the-fact data viewer used to replay all participants data over time",
       logo: YearProgressLogo,
       link: {
         label: "FutureofXR",
@@ -275,7 +282,8 @@ export const RESUME_DATA = {
     {
       title: "AR Bridge Assembly Tutorial",
       techStack: ["Unity", "C#", "HoloLens 1", "Vuforia"],
-      description: "",
+      description:
+        "An educational AR app aimed to instruct high schoolers how to assemble a physical toy bridge",
       logo: ParabolLogo,
       link: {
         label: "FutureofXR",
@@ -286,7 +294,7 @@ export const RESUME_DATA = {
       title: "AI Canvas AR App",
       techStack: ["Unity", "C#", "Quest 3", "OpenXR", "XRI Toolkit"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Creative VR application allowing a user to speak a painting promt which is returned by DALL·E 3",
       logo: EvercastLogo,
       link: {
         label: "FutureofXR",
@@ -297,7 +305,7 @@ export const RESUME_DATA = {
       title: "Google Maps GeoLocation App",
       techStack: ["ARCore", "Unity", "Geospatial API", "Android"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
+        "Android App for World Locked objects based on Google Streetview",
       logo: MobileVikingsLogo,
       link: {
         label: "FutureofXR",
