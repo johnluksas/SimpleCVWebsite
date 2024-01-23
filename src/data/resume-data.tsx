@@ -83,36 +83,108 @@ export const RESUME_DATA = {
         "o	Designing and building minimally invasive AR UI system to help inspectors collect bridge defect data and overlay previous data accurately onto the bridge",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Virginia Department of Transportation (VDOT)",
+      link: "https://www.vdot.virginia.gov/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title:
+        "Graduate Research Assistant (Macro Tracking Developer and UI Designer)",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2022",
+      end: "2024",
+      description:
+        "•	Acquire understanding of workflow and technology restrictions present for VDOT personnel and bridge inspectors to design an Augmented Reality (AR) bridge inspection system that would meet their data recording extents, function in their workplace conditions, and ultimately gain inspector buy-in•	Develop initial proof of concept AR HoloLens 2 application in Unity to introduce stakeholders to the functionalpossibilities of AR and provide a design milestone for which future work could be added•	Collaborate with experimenters to develop an app to facilitate a user study exploring interaction techniques",
+    },
+    {
+      company: "National Institute of Standards and Technology (NIST)",
+      link: "https://www.nist.gov/",
+      badges: [],
+      title: "Lead Developer",
+      logo: JojoMobileLogo,
+      start: "2021",
+      end: "2024",
+      description:
+        "•	Implement and test world-scale outdoor tracking architecture for use with HoloLens 2 headsets which can recall which location a user is and load relevant virtual object saves for that location" +
+        "•	Develop and update an AR HoloLens 2 application in Unity designed to aid search and rescue personnel in the notation and localization of hazards and victims in a wide area disaster or search scenario" +
+        "•	Develop an author mode for experimenters to easily setup and  save training scenes in their real world" +
+        "•	Present research and perform live demos at NIST’s premier PSCR first responder conference",
+    },
+    {
+      company: "Master of Science Thesis Research",
+      link: "https://www.ise.vt.edu/",
+      badges: [],
+      title: "Graduate Researcher",
+      logo: NSNLogo,
+      start: "2021",
+      end: "2024",
+      description:
+        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
+        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
+        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+    },
+    {
+      company: "Creative Systems and Consulting (ICF)",
+      link: "https://www.icf.com",
+      badges: ["Remote"],
+      title: "Business Analyst",
+      logo: NSNLogo,
+      start: "2020",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
+        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
+        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Collins Aerospace",
+      link: "https://www.collinsaerospace.com/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      title: "Aftermarket Engineering Intern",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "2019",
+      end: "2019",
+      description:
+        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
+        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
+        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+    },
+    {
+      company: "COGnitive Engineering for Novel Technologies (COGENT) Lab",
+      link: "https://cogent.ise.vt.edu/",
+      badges: ["Undergrad"],
+      title: "Application Designer",
+      logo: NSNLogo,
+      start: "2020",
+      end: "2020",
+      description:
+        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
+        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
+        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+    },
+    {
+      company: "COGnitive Engineering for Novel Technologies (COGENT) Lab",
+      link: "https://cogent.ise.vt.edu/",
+      badges: ["Undergrad"],
+      title: "Research Assistant",
+      logo: NSNLogo,
+      start: "2019",
+      end: "2019",
+      description:
+        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
+        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
+        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
+    },
+    {
+      company: "COGnitive Engineering for Novel Technologies (COGENT) Lab",
+      link: "https://cogent.ise.vt.edu/",
+      badges: ["Undergrad"],
+      title: "AR Application Designer",
+      logo: NSNLogo,
+      start: "2019",
+      end: "2019",
+      description:
+        "•	Develop an interaction-triggered method to estimate the normal and position of missing environmental mesh in real-time for non-prior knowledge Augmented Reality applications" +
+        "•	Implement the method in Unity with common game engine features for a low computational overhead" +
+        "•	Design and conduct a 24 person user study to test 3 different custom estimating configurations",
     },
   ],
   skills: [
@@ -127,9 +199,9 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "NMDOT",
-      techStack: ["Unity", "C#", "World Locking Tools", ""],
-      description: "A platform to build and grow your online business",
+      title: "NMDOT Bridge AR App",
+      techStack: ["Unity", "C#", "World Locking Tools", "HoloLens 2", "MRTK"],
+      description: "",
       logo: ConsultlyLogo,
       link: {
         label: "NMDOT.com",
@@ -137,8 +209,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "VDOT",
-      techStack: ["Unity", "C#", "World Locking Tools"],
+      title: "VDOT Bridge AR App",
+      techStack: ["Unity", "C#", "World Locking Tools", "HoloLens 2", "MRTK"],
       description:
         "Browser extension that records everything happening in a web application",
       logo: MonitoLogo,
@@ -148,10 +220,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "NIST",
-      techStack: ["Unity", "C#", "World Locking Tools"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
+      title: "NIST AR First Responder App",
+      techStack: ["Unity", "C#", "World Locking Tools", "HoloLens 2", "MRTK"],
+      description: "",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
@@ -159,10 +230,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Thesis",
-      techStack: ["Unity", "C#", "World Locking Tools", ""],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
+      title: "Thesis AR App",
+      techStack: ["Unity", "C#", "World Locking Tools", "HoloLens 2", "MRTK"],
+      description: "",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -170,15 +240,15 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Thesis AR Data App",
+      title: "Thesis Data App",
       techStack: [
         "Time Series Data",
         "Unity",
+        "C#",
         "Unity Editor",
         "Real-time Data Logging",
       ],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+      description: "",
       logo: BarepapersLogo,
       link: {
         label: "barepapers.com",
@@ -186,15 +256,16 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "NIST AR Data App",
+      title: "NIST Data App",
       techStack: [
         "Time Series Data",
         "Unity",
+        "C#",
         "Unity Editor",
         "Gaussian Splats",
         "Real-time Data Logging",
       ],
-      description: "Tracks current year progress and displays a countdown",
+      description: "",
       logo: YearProgressLogo,
       link: {
         label: "getyearprogress.com",
@@ -202,16 +273,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Bridge Assembly Task",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+      title: "AR Bridge Assembly Tutorial",
+      techStack: ["Unity", "C#", "HoloLens 1", "Vuforia"],
+      description: "",
       logo: ParabolLogo,
       link: {
         label: "github.com",
@@ -220,14 +284,7 @@ export const RESUME_DATA = {
     },
     {
       title: "AI Canvas AR App",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      techStack: ["Unity", "C#", "Quest 3", "OpenXR", "XRI Toolkit"],
       description:
         "Creative collaboration platform that combines video conferencing and HD media streaming",
       logo: EvercastLogo,
@@ -238,7 +295,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Google Maps GeoLocation App",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      techStack: ["ARCore", "Unity", "Geospatial API", "Android"],
       description:
         "Android application for leading virtual mobile operator in Poland",
       logo: MobileVikingsLogo,
