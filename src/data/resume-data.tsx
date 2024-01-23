@@ -278,8 +278,8 @@ export const RESUME_DATA = {
       description: "",
       logo: ParabolLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/BridgeAssemblyPortfolio",
       },
     },
     {
@@ -289,8 +289,8 @@ export const RESUME_DATA = {
         "Creative collaboration platform that combines video conferencing and HD media streaming",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/AICanvasPortfolio",
       },
     },
     {
@@ -300,8 +300,8 @@ export const RESUME_DATA = {
         "Android application for leading virtual mobile operator in Poland",
       logo: MobileVikingsLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/GoogleMapsGeolocationPortfolio",
       },
     },
   ],
