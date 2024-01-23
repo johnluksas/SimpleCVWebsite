@@ -204,8 +204,8 @@ export const RESUME_DATA = {
       description: "",
       logo: ConsultlyLogo,
       link: {
-        label: "NMDOT.com",
-        href: "https://www.dot.nm.gov/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/NMDOTBridgePortfolio",
       },
     },
     {
@@ -215,8 +215,8 @@ export const RESUME_DATA = {
         "Browser extension that records everything happening in a web application",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/VDOTBridgePortfolio",
       },
     },
     {
@@ -225,8 +225,8 @@ export const RESUME_DATA = {
       description: "",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/NISTExperimentPortfolio-copy",
       },
     },
     {
@@ -235,12 +235,12 @@ export const RESUME_DATA = {
       description: "",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/ThesisPortfolio",
       },
     },
     {
-      title: "Thesis Data App",
+      title: "Thesis Data Viewer",
       techStack: [
         "Time Series Data",
         "Unity",
@@ -251,12 +251,12 @@ export const RESUME_DATA = {
       description: "",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/ThesisDataViewerPortfolio",
       },
     },
     {
-      title: "NIST Data App",
+      title: "NIST Data Viewer",
       techStack: [
         "Time Series Data",
         "Unity",
@@ -268,8 +268,8 @@ export const RESUME_DATA = {
       description: "",
       logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "FutureofXR",
+        href: "https://futureofxr.com/Project-Examples/NISTDataViewerPortfolio",
       },
     },
     {
